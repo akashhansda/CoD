@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Podkova:500,700');
+.active-portal-screen > .mw,
+.active-portal-screen > .cold-war {
+  display: none;
+}
+body.coral--light {
+  background-color: #000;
+}
+body:not(.coral--light) .new.newpar {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+.portal-screen-container.initial .promo-text,
+.portal-screen-container.initial .promo-disclaimer-text .atvi-text p {
+  display: none;
+}
+.modernwarfare2.platform-select.portal-screen-container .wtb-portal-tout .promo-text,
+.vanguard.platform-select.portal-screen-container .wtb-portal-tout .promo-text,
+.cold-war.platform-select.portal-screen-container .wtb-portal-tout .promo-text,
+.warzone.platform-select.portal-screen-container .wtb-portal-tout .promo-text,
+.wz.platform-select.portal-screen-container .wtb-portal-tout .promo-text,
+.mw.platform-select.portal-screen-container .wtb-portal-tout .promo-text,
+.modernwarfare2.platform-select.portal-screen-container .disclaimers-container > div,
+.vanguard.platform-select.portal-screen-container .disclaimers-container > div,
+.cold-war.platform-select.portal-screen-container .disclaimers-container > div,
+.warzone.platform-select.portal-screen-container .disclaimers-container > div,
+.wz.platform-select.portal-screen-container .disclaimers-container > div,
+.mw.platform-select.portal-screen-container .disclaimers-container > div {
+  display: none;
+}
+.modernwarfare2.platform-select.portal-screen-container .platform-disclaimers .atvi-text div > p:first-child,
+.vanguard.platform-select.portal-screen-container .platform-disclaimers .atvi-text div > p:first-child,
+.cold-war.platform-select.portal-screen-container .platform-disclaimers .atvi-text div > p:first-child,
+.warzone.platform-select.portal-screen-container .platform-disclaimers .atvi-text div > p:first-child,
+.wz.platform-select.portal-screen-container .platform-disclaimers .atvi-text div > p:first-child,
+.mw.platform-select.portal-screen-container .platform-disclaimers .atvi-text div > p:first-child {
+  display: none;
+}
+.portal-screen-container.modernwarfare2.active-portal-screen.bundle-selection .disclaimers-container p:first-child {
+  display: none;
+}
+.portal-screen-container.initial {
+  color: #a59d95;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  height: 100vh;
+  font-size: 1rem;
+  line-height: 1;
+  letter-spacing: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+.portal-screen-container.initial > div {
+  max-width: 1280px;
+  margin: auto;
+}
+.portal-screen-container.initial > div:nth-child(4) .wtb-portal-tout {
+  border-color: #f4dc02;
+}
+.portal-screen-container.initial .screen-touts {
+  margin-left: auto;
+  margin-right: auto;
+}
+.portal-screen-container.initial .screen-title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  font-family: "Montserrat", Verdana, Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+.portal-screen-container.initial .screen-title-container,
+.portal-screen-container.initial .screen-touts {
+  position: relative;
+}
+.portal-screen-container.initial .wtb-portal-tout {
+  position: relative;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #597985;
+}
+.portal-screen-container.initial .wtb-portal-tout.full-width {
+  border-color: #818963;
+}
+.portal-screen-container.initial .wtb-portal-tout.full-width .tout-text {
+  text-transform: none;
+}
+.portal-screen-container.initial .wtb-portal-tout > .atvi-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.portal-screen-container.initial .wtb-portal-tout .title-tout-link {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.portal-screen-container.initial .screen-touts > div.modernwarfare2 .wtb-portal-tout {
+  border-color: #7AC32C;
+}
+.portal-screen-container.initial .screen-touts > div.vanguard .wtb-portal-tout {
+  border-color: #B99739;
+}
+.portal-screen-container.initial .screen-touts > div.cod-mobile .wtb-portal-tout {
+  border-color: #f4dc02;
+}
+.portal-screen-container.initial .screen-touts > div.cold-war .wtb-portal-tout,
+.portal-screen-container.initial .screen-touts > div.warzone .wtb-portal-tout,
+.portal-screen-container.initial .screen-touts > div.battlepass .wtb-portal-tout {
+  border-color: #fefefe;
+}
+.portal-screen-container.initial .no-pointer-event,
+.portal-screen-container.initial .no-pointer-events {
+  pointer-events: none;
+}
+.portal-screen-container.initial .tout-text {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 0 12px 20px;
+  line-height: 1.15;
+  font-size: 1.25rem;
+  font-family: "Montserrat", Verdana, Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+.portal-screen-container.initial .tout-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+}
+.portal-screen-container.initial .promo-text {
+  position: absolute;
+  left: -1px;
+  bottom: 100%;
+  background-color: #fff;
+  color: #950815;
+  font-weight: 700;
+  font-family: 'Podkova';
+  width: calc(100% + 2px);
+  padding: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'VA-Text-Caps-Bold';
+  font-size: 18px;
+}
+.portal-screen-container.initial .promo-text sup {
+  vertical-align: super;
+  font-size: 75%;
+  vertical-align: 3px;
+  margin-left: -3px;
+}
+@media screen and (max-width: 1023px) {
+  .portal-screen-container.initial .promo-text {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .portal-screen-container.initial .promo-text {
+    bottom: 100%;
+    font-size: 1.5rem;
+  }
+}
+.portal-screen-container.initial .promo-disclaimer-text {
+  color: #fff;
+  margin-top: 12px;
+}
+@media screen and (max-width: 1023.5px) {
+  .portal-screen-container.initial {
+    width: 100%;
+    height: 100%;
+  }
+  .portal-screen-container.initial .screen-touts {
+    width: 80.5vw;
+    max-width: 384px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+    display: -moz-box;
+    display: -ms-flexbox;
+    -webkit-box-lines: multiple;
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    display: -webkit-box;
+    display: flex;
+    justify-content: space-between;
+  }
+  .portal-screen-container.initial .screen-touts > div {
+    margin-bottom: 22px;
+  }
+  .portal-screen-container.initial .screen-touts > div.battlepass,
+  .portal-screen-container.initial .screen-touts > div.vanguard,
+  .portal-screen-container.initial .screen-touts > div.cod-mobile,
+  .portal-screen-container.initial .screen-touts > div.cold-war {
+    width: 100%;
+  }
+  .portal-screen-container.initial .screen-touts > div.modernwarfare2,
+  .portal-screen-container.initial .screen-touts > div.warzone {
+    width: 47%;
+    align-self: baseline;
+  }
+  .portal-screen-container.initial .screen-touts > div.modernwarfare2 .wtb-portal-tout.modernwarfare2,
+  .portal-screen-container.initial .screen-touts > div.warzone .wtb-portal-tout.modernwarfare2,
+  .portal-screen-container.initial .screen-touts > div.modernwarfare2 .wtb-portal-tout.vanguard,
+  .portal-screen-container.initial .screen-touts > div.warzone .wtb-portal-tout.vanguard,
+  .portal-screen-container.initial .screen-touts > div.modernwarfare2 .wtb-portal-tout.warzone,
+  .portal-screen-container.initial .screen-touts > div.warzone .wtb-portal-tout.warzone {
+    height: 230px;
+  }
+  .portal-screen-container.initial .screen-touts > div.modernwarfare2 .wtb-portal-tout.modernwarfare2 .tout-image.mobile-only,
+  .portal-screen-container.initial .screen-touts > div.warzone .wtb-portal-tout.modernwarfare2 .tout-image.mobile-only,
+  .portal-screen-container.initial .screen-touts > div.modernwarfare2 .wtb-portal-tout.vanguard .tout-image.mobile-only,
+  .portal-screen-container.initial .screen-touts > div.warzone .wtb-portal-tout.vanguard .tout-image.mobile-only,
+  .portal-screen-container.initial .screen-touts > div.modernwarfare2 .wtb-portal-tout.warzone .tout-image.mobile-only,
+  .portal-screen-container.initial .screen-touts > div.warzone .wtb-portal-tout.warzone .tout-image.mobile-only {
+    display: none;
+  }
+  .portal-screen-container.initial .screen-touts > div.modernwarfare2 .wtb-portal-tout.modernwarfare2 .tout-image.desktop-only,
+  .portal-screen-container.initial .screen-touts > div.warzone .wtb-portal-tout.modernwarfare2 .tout-image.desktop-only,
+  .portal-screen-container.initial .screen-touts > div.modernwarfare2 .wtb-portal-tout.vanguard .tout-image.desktop-only,
+  .portal-screen-container.initial .screen-touts > div.warzone .wtb-portal-tout.vanguard .tout-image.desktop-only,
+  .portal-screen-container.initial .screen-touts > div.modernwarfare2 .wtb-portal-tout.warzone .tout-image.desktop-only,
+  .portal-screen-container.initial .screen-touts > div.warzone .wtb-portal-tout.warzone .tout-image.desktop-only {
+    display: block;
+  }
+  .portal-screen-container.initial .screen-touts > div.modernwarfare2 .wtb-portal-tout.modernwarfare2 .tout-text,
+  .portal-screen-container.initial .screen-touts > div.warzone .wtb-portal-tout.modernwarfare2 .tout-text,
+  .portal-screen-container.initial .screen-touts > div.modernwarfare2 .wtb-portal-tout.vanguard .tout-text,
+  .portal-screen-container.initial .screen-touts > div.warzone .wtb-portal-tout.vanguard .tout-text,
+  .portal-screen-container.initial .screen-touts > div.modernwarfare2 .wtb-portal-tout.warzone .tout-text,
+  .portal-screen-container.initial .screen-touts > div.warzone .wtb-portal-tout.warzone .tout-text {
+    min-width: 90%;
+    max-width: 100%;
+    top: unset;
+    left: 50%;
+    right: unset;
+    bottom: 10px;
+    height: auto;
+    padding: 0;
+    -webkit-transform: translate(-50%, 0);
+    -moz-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+  }
+  .portal-screen-container.initial .screen-touts > .modernwarfare2 {
+    order: 1;
+  }
+  .portal-screen-container.initial .screen-touts > .vanguard {
+    order: 4;
+    margin: 0 auto 15px;
+  }
+  .portal-screen-container.initial .screen-touts > .warzone {
+    order: 2;
+  }
+  .portal-screen-container.initial .screen-touts > .battlepass {
+    order: 3;
+    display: none;
+  }
+  .portal-screen-container.initial .screen-touts > .cold-war {
+    display: none;
+  }
+  .portal-screen-container.initial .screen-touts > .cod-mobile {
+    order: 5;
+  }
+  .portal-screen-container.initial .wtb-portal-tout {
+    width: 179px;
+    max-width: 179px;
+    height: 246px;
+    max-height: 246px;
+    /*&.vanguard {
+                .tout-text {
+                    right: unset;
+                    position: relative;
+                    top: 70%;
+                    &::before {
+                        content: "";
+                        background: url(../../../../../../../content/dam/atvi/callofduty/cod-touchui/vanguard/buy/vg-logo-white-color.svg);
+                        width: 120px;    
+                        height: 50px;
+                        background-size: cover;
+                        background-position: center;
+                        left: 6px;
+                        position: absolute;
+                        top: -50px;
+                        left: 50%;
+                        transform: translateX(-50%);
+                    }
+                }
+            }*/
+  }
+  .portal-screen-container.initial .wtb-portal-tout.full-width,
+  .portal-screen-container.initial .wtb-portal-tout.mobile-full-width {
+    width: 100%;
+    max-width: 100%;
+    height: 75px;
+  }
+  .portal-screen-container.initial .wtb-portal-tout.full-width .tout-image,
+  .portal-screen-container.initial .wtb-portal-tout.mobile-full-width .tout-image {
+    background-position: center center;
+    background-size: cover;
+  }
+  .portal-screen-container.initial .wtb-portal-tout.full-width .tout-text,
+  .portal-screen-container.initial .wtb-portal-tout.mobile-full-width .tout-text {
+    max-width: 55%;
+    top: 50%;
+    right: 0;
+    bottom: auto;
+    height: auto;
+    padding: 0 4% 0 0;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+  }
+  .portal-screen-container.initial .wtb-portal-tout.cod-mobile .tout-text,
+  .portal-screen-container.initial .wtb-portal-tout.vanguard .tout-text,
+  .portal-screen-container.initial .wtb-portal-tout.cold-war .tout-text,
+  .portal-screen-container.initial .wtb-portal-tout.warzone .tout-text {
+    top: 70%;
+  }
+  .portal-screen-container.initial .wtb-portal-tout.vanguard .tout-text {
+    font-size: 12px;
+  }
+  .portal-screen-container.initial .wtb-portal-tout.cold-war .tout-text {
+    color: #1a1e20;
+  }
+  .portal-screen-container.initial .wtb-portal-tout.mobile-full-width.modernwarfare2,
+  .portal-screen-container.initial .wtb-portal-tout.mobile-full-width.vanguard,
+  .portal-screen-container.initial .wtb-portal-tout.mobile-full-width.cod-mobile,
+  .portal-screen-container.initial .wtb-portal-tout.mobile-full-width.warzone,
+  .portal-screen-container.initial .wtb-portal-tout.mobile-full-width.cold-war {
+    height: 115px;
+  }
+  .portal-screen-container.initial .tout-text {
+    text-transform: none;
+    font-size: .875rem;
+    padding: 0 12px 10px;
+  }
+  .portal-screen-container.initial .promo-text {
+    font-size: 1.25rem;
+  }
+  .portal-screen-container.initial .promo-disclaimer-text {
+    font-size: .7rem;
+    line-height: 1.15;
+    width: 80.5vw;
+    max-width: 384px;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 1023.5px) and (min-width: 400px) {
+  .portal-screen-container.initial .wtb-portal-tout.vanguard .tout-text {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1023.5px) and (min-width: 480px) {
+  .portal-screen-container.initial .wtb-portal-tout.vanguard .tout-text {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1023.5px) and (min-width: 480px) {
+  .portal-screen-container.initial .wtb-portal-tout.vanguard .tout-text {
+    top: 72%;
+    font-size: inherit;
+  }
+}
+@media screen and (max-width: 1023.5px) and (min-width: 1470px) {
+  .portal-screen-container.initial .wtb-portal-tout.vanguard .tout-text {
+    top: auto;
+    font-size: inherit;
+  }
+}
+@media screen and (max-width: 767px) {
+  .portal-screen-container.initial {
+    padding-top: 40px;
+  }
+  .portal-screen-container.initial .screen-touts {
+    padding-bottom: 40px;
+    margin-top: 40px;
+  }
+  .portal-screen-container.initial .wtb-portal-tout {
+    width: 37.29166667vw;
+    height: 51.25vw;
+  }
+  .portal-screen-container.initial .wtb-portal-tout.full-width {
+    min-width: 100%;
+    min-height: 0;
+  }
+}
+@media screen and (max-width: 420px) {
+  .portal-screen-container.initial .screen-touts {
+    margin-top: 50px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .portal-screen-container.initial {
+    padding-left: 10vw;
+    padding-right: 10vw;
+  }
+  .portal-screen-container.initial .screen-touts {
+    width: 100%;
+    max-width: 1280px;
+    display: -moz-box;
+    display: -ms-flexbox;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    display: -webkit-box;
+    justify-content: space-between;
+    -webkit-box-lines: multiple;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+  .portal-screen-container.initial .screen-touts > div {
+    position: relative;
+  }
+  .portal-screen-container.initial .screen-touts > div.battlepass {
+    position: relative;
+    top: auto;
+    order: 5;
+    max-width: none;
+    width: auto;
+    height: auto;
+    left: 0;
+    display: none;
+  }
+  .portal-screen-container.initial .screen-touts > div.atvi-text {
+    position: absolute;
+    top: 100%;
+    transform: translateY(100px);
+  }
+  .portal-screen-container.initial .wtb-portal-tout {
+    max-width: 310px;
+    max-height: 310px;
+    width: 19.25vw;
+    height: 19.25vw;
+  }
+  .portal-screen-container.initial .wtb-portal-tout.full-width {
+    width: 39.5vw;
+    max-width: 635px;
+    height: 5.859375vw;
+    min-height: 75px;
+    max-height: 75px;
+    margin-top: 10px;
+  }
+  .portal-screen-container.initial .wtb-portal-tout.full-width .tout-text {
+    top: 50%;
+    right: 0;
+    bottom: auto;
+    width: 30%;
+    height: auto;
+    padding: 0 1% 0 0;
+    -webkit-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+  }
+  .portal-screen-container.initial .wtb-portal-tout.full-width .tout-image {
+    background-position: left center;
+    background-size: cover;
+  }
+  .portal-screen-container.initial .promo-text {
+    bottom: 100%;
+    font-size: 1.5rem;
+    font-size: 18px;
+  }
+  .portal-screen-container.initial .screen-touts .promo-disclaimer-text-container {
+    position: absolute;
+    top: 100%;
+    left: 0;
+  }
+  .portal-screen-container.initial .promo-disclaimer-text {
+    font-size: .875rem;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .portal-screen-container.initial .tout-text {
+    font-size: 11px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portal-screen-container.initial .wtb-portal-tout.full-width .tout-text {
+    width: 40%;
+  }
+  .portal-screen-container.initial .tout-text {
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .portal-screen-container.initial .tout-text {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 1385px) {
+  .portal-screen-container.initial .wtb-portal-tout.full-width .tout-text {
+    width: 50%;
+    padding: 0 4% 0 0;
+  }
+  .portal-screen-container.initial .wtb-portal-tout.full-width .tout-image {
+    background-size: 100% auto;
+  }
+}
+@media screen and (min-width: 1594px) {
+  .portal-screen-container.initial {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.portal-screen-container.initial .screen-touts > .modernwarfare2 .promo-text,
+.portal-screen-container.initial .screen-touts > .vanguard .promo-text {
+  display: block;
+}
+@media (max-width: 1023.5px) {
+  .portal-screen-container.initial .screen-touts > .modernwarfare2,
+  .portal-screen-container.initial .screen-touts > .vanguard {
+    margin-top: 28px;
+  }
+}
+.portal-screen-container.initial .promo-disclaimer-text .atvi-text p {
+  display: block;
+}
+.modernwarfare2.platform-select.portal-screen-container .pc.wtb-portal-tout .promo-text,
+.modernwarfare2.platform-select.portal-screen-container .steam.wtb-portal-tout .promo-text {
+  display: block;
+}
+@media (max-width: 1023.5px) {
+  .modernwarfare2.platform-select.portal-screen-container .pc.wtb-portal-tout,
+  .modernwarfare2.platform-select.portal-screen-container .steam.wtb-portal-tout {
+    margin-top: 28px;
+  }
+}
+.modernwarfare2.platform-select.portal-screen-container .disclaimers-container > div {
+  display: block;
+}
+.modernwarfare2.platform-select.portal-screen-container .platform-disclaimers .atvi-text div > p:first-child {
+  display: block;
+}
+.vanguard.platform-select.portal-screen-container .xbox.wtb-portal-tout .promo-text {
+  display: block;
+}
+@media (max-width: 1023.5px) {
+  .vanguard.platform-select.portal-screen-container .xbox.wtb-portal-tout {
+    margin-top: 28px;
+  }
+}
+.vanguard.platform-select.portal-screen-container .disclaimers-container > div {
+  display: block;
+}
+
